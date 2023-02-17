@@ -24,4 +24,21 @@ This is an incremental approach and slowly the final logical and techincal archi
 -- AWS has differnt cost model w.r.t services and region. So before creating any environment, better to calculate cost estimation using AWS calculator ( Link - https://calculator.aws/#/)
 -- It is highly recommended to review the cost report in regular interval to understand the usages of each service and its contribution towards to the overall cost.
 
+**Notes**
+1. It is very important to set up MFA for root user and create another user with admin privilage for regular activity. This is my MFA set up screenshot.
+<img width="643" alt="image" src="https://user-images.githubusercontent.com/24868114/219669827-7656c708-b575-4a5f-802d-b29a128deb2f.png">
+2.Create IAM groups and assign users to the IAM groups. Manage IAM policies at IAM group level.
+<img width="602" alt="image" src="https://user-images.githubusercontent.com/24868114/219670217-3fda4ab6-165e-431c-9059-2bb33b805b1d.png">
+3. If there is any requirement to host website, book a domain name . In my case, i used Route 53 for my domain name. A statis website is coming soon :)
+<img width="599" alt="image" src="https://user-images.githubusercontent.com/24868114/219670614-43b3e4da-4b13-43b5-8a6a-e88cbe110e48.png">
+4. It is very important to notified when there are any issues in AWS services, created a SNS topic ( see below) and create an event bridge to get notified.
+<img width="521" alt="image" src="https://user-images.githubusercontent.com/24868114/219671180-9c84756c-68a7-482e-a0ad-e92708f0777f.png">
+
+<img width="562" alt="image" src="https://user-images.githubusercontent.com/24868114/219671230-d8472279-6e03-4ad6-81a1-8c3f0545c278.png">
+
+5. Cloudshell is an online development and operational environment in AWS where user can create small development codes. Cloudshell is NOT enable for all aws regions, before using it, please check whether cloudshell is available for your region or not. In my case, i check my security crdentials using cloudshell.
+<img width="379" alt="image" src="https://user-images.githubusercontent.com/24868114/219671794-6983ef91-2e98-41d3-8234-8e7a69856e7d.png">
+
+
+
 
