@@ -44,5 +44,9 @@ I already get a billing alram ( since i set up the limit to $10) and due to rout
 <img width="678" alt="image" src="https://user-images.githubusercontent.com/24868114/219675955-45187e96-c370-494e-a520-9f243b2aeca5.png">
 
 
+**Update**
+1. It is highly recommended to set up the budget and alram via aws cli. Please see the details below.
+
+<img width="640" alt="image" src="https://user-images.githubusercontent.com/24868114/219795385-051a8752-0427-4313-b126-935f6efa6d85.png">
 
 
