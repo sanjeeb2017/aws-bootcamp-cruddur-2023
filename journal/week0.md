@@ -39,6 +39,10 @@ This is an incremental approach and slowly the final logical and techincal archi
 5. Cloudshell is an online development and operational environment in AWS where user can create small development codes. Cloudshell is NOT enable for all aws regions, before using it, please check whether cloudshell is available for your region or not. In my case, i check my security crdentials using cloudshell.
 <img width="379" alt="image" src="https://user-images.githubusercontent.com/24868114/219671794-6983ef91-2e98-41d3-8234-8e7a69856e7d.png">
 
+I already get a billing alram ( since i set up the limit to $10) and due to route 53 domain, i spent more than that, i got an email. Wow, billing alram worked.
+
+<img width="678" alt="image" src="https://user-images.githubusercontent.com/24868114/219675955-45187e96-c370-494e-a520-9f243b2aeca5.png">
+
 
 
 
