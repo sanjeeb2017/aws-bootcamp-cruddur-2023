@@ -7,6 +7,20 @@ In the first week, we are going to cover the below topics.
 2. Create budgets and setting up the billing alram in AWS. There are lots of free services available in AWS and some of them are NOT covered in Free tier. So managing cost is very important in cloud. Creating your own budget and set up billing alram will help in getting alert when you have cross your defined estimation.
 3. Security best pratices to be followed in AWS cloud environments. Security is very important and there is zero tolerance in security. So we have to follow some best practices while setting up the account in AWS, creating users and assign permissions or policies.
 
+This is my Summary report for Week-0.
+
+1.	Get the detail overview of Cloud computing and understand different cloud models like PaaS (Platform as a Service), IaaS (Infrastructure as a Service) and Saas (Software as a Service)
+2.	Create an account in Free tier of AWS. 
+3.	Create an IAM user and group in AWS.
+4.	Configure the MFA both for root user and IAM user.
+5.	Register a new domain in Route 53 (It’s not free but good to have your own domain)
+6.	Completed all pre-requisites require to start the boot camp journey like create github account, Discord account,  lucid account, gitpod account, configure gitpod chrome extension.
+7.	Install and configure aws cli with IAM credentials and update the girpod yaml file and set the env variables.
+8.	Copy the Andrew brown github template to own github account so that all weekly home challenge can be submitted.
+9.	Created both Napkin and Lucid architectural diagram as per Boot camp approach.
+10.	Go through Chirag’s Billing videos and understand the best practices that needs to be followed in billing like setting up budget alarms and understanding the different services cost model and free tier usages as well.
+11.	Go through the security best practices from Ashish video and understand the best practices one should follow in cloud like MFA set up IAM user and root account, organizations structure set up in aws account, creating role and policies and follow the least privilege principles.
+
 Here are my understanding on Billing and Architecture.
 
 1. Napkin Diagram /Lucid Diagram : 
