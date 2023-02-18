@@ -7,7 +7,7 @@ In the first week, we are going to cover the below topics.
 2. Create budgets and setting up the billing alram in AWS. There are lots of free services available in AWS and some of them are NOT covered in Free tier. So managing cost is very important in cloud. Creating your own budget and set up billing alram will help in getting alert when you have cross your defined estimation.
 3. Security best pratices to be followed in AWS cloud environments. Security is very important and there is zero tolerance in security. So we have to follow some best practices while setting up the account in AWS, creating users and assign permissions or policies.
 
-This is my Summary report for Week-0.
+**This is my Summary report for Week-0**
 
 1.	Get the detail overview of Cloud computing and understand different cloud models like PaaS (Platform as a Service), IaaS (Infrastructure as a Service) and Saas (Software as a Service)
 2.	Create an account in Free tier of AWS. 
